@@ -1,0 +1,27 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Tumelo/Smart_Water_Solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Tumelo/Smart_Water_Solutions/issues"
+  },
+  "homepage": "https://github.com/M-Tumelo/Smart_Water_Solutions#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5",
+    "express-session": "^1.17.2",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
