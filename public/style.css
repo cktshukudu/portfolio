@@ -1,0 +1,167 @@
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-image:url(images/thomas-bennie-B21WLsX6a5c-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 3em;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 6px;
+   
+    
+}
+.header img{
+    margin-right: 15px;
+    float: right;
+}
+.header h1{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+.city {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2em;
+    overflow: hidden;
+    border-bottom: 2px solid #009879;
+    
+}
+
+.city img {
+    margin-right: 15px;
+    float: left;
+}
+
+.city h2,
+.city p{
+    display: ;
+}
+.foreign{
+    background-color: white;
+    padding: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+.foreign h2 {text-align: center;}
+.footer {
+    background-color: #ffffff;
+   
+   
+    padding: 2em; 
+    margin-bottom: 1rem;  
+}
+.footer h2 {text-align: center;}
+.freedom{
+   
+    flex: 1;
+}
+.freedom img{
+margin-left: 15px;
+float: right;
+}
+.freedom h3,
+.freedom p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+.paul{
+    
+    box-shadow: #009879;
+    flex: 1;
+}
+.paul img{
+    margin-left: 15px;
+    float: right;
+    }
+    .paul h3,
+    .paul p{
+        margin-left: 15px;
+        display: block;
+        margin: 2px 0 0 0;
+    }
+.vortr{
+  
+    flex: 1;
+}
+.vortr img{
+    margin-left: 15px;
+    float: right;
+    }
+    .vortr h3,
+    .vortr p{
+        margin-left: 15px;
+        display: block;
+        margin: 2px 0 0 0;
+    }
+.his{
+  
+    border: 1px dotted;
+    border-color:#fefae0;
+    padding: 1em;
+    margin: 1em;
+}
+.styled-table {
+    border-collapse: separate;
+    margin: 5px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #009879;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+@media (min-width:960px) {
+    .pro{
+        display: flex;
+    }
+}
+
+
+    
