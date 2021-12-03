@@ -4,24 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/M-Tumelo/Smart_Water_Solutions.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/M-Tumelo/Smart_Water_Solutions/issues"
   },
-  "homepage": "https://github.com/M-Tumelo/Smart_Water_Solutions#readme",
   "dependencies": {
     "bootstrap-icons": "^1.7.1",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.5",
     "express-session": "^1.17.2",
+    "googleapis": "^92.0.0",
     "install": "^0.13.0",
     "nodemon": "^2.0.15"
   }
