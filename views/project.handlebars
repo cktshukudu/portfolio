@@ -1,73 +1,46 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Portfolio || Christian Tshukudu</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 
-<style>
-
-    .tyle{
-    top: 50em;
-    background-color: #FFFFFF;
-    width: 500px;
-    border: 2px wheat solid;
-    display: block;
-    margin: 1em;
-    padding: 1em;
-}
-</style>
-
-
 </head>
+
 <body>
-    <div class="pro">
-      <form action="/project" method="POST">
-    <ul class="navbar">
-          <a href="/">
-            <span class="glyphicon glyphicon-home"></span> Home
-          </a>
-            <div class="pro1" >
-                <h2>Smart Water Solutions</h2>
-                <p>The web application is developed for community members of the city of Johannesburg to report water and Rand water technicians,
-                     and the system is integrated with machine learning that allows the app to self-detect and report a water leak when it hears water pipe burst sound.
-                     The app uses Mapbox API to access the location of a user, allows a user to upload a water leak image,let a user describe the query, 
-                     the app uses sqlite database to store and retrieve queries and it is coded in Javascript(nodejs and expressjs). The app makes the work of Rand water technicians easy by receiving a reported query,
-                     finding the exact location of the leak and updating the status of the water leak using their smartphones. The app has two machine learning models that report water leaks by playing sound bursts of 
-                     water and image classification that verify uploaded images.</p>
-            </div>
-            <div class="pro2" >
-                <h2>Pizza Shopping Cart</h2>
-                <table class="styled-table  center">
-                    <thead>
-                        <tr>
-                            <th><i class="glyphicon glyphicon-education"></i></th>
-                            <th><i class="glyphicon glyphicon-tasks"></i></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>English(Hello)</td>
-                        <td>German(Hallo)</td>
-                    </tr>
-                    <tr class="active-row">
-                        <td>English(Thank you)</td>
-                        <td>German(Danke)</td>
-                    </tr>
-                        <tr>
-                          <td>English(How are you)</td>
-                          <td>German(Wie geht es dir)</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            </div>
-    </div>
-    </form>
-    </div>
+
+
+<div class="topnav">
+  <a class="active" href="/"><span class="glyphicon glyphicon-home"></span> Home </a>
+</div>
+ <div class="pro1">
+<div class="pr1">
+<h2>Smart Water Solutions</h2>
+<p>The web application is developed for community members of the city of Johannesburg to report water and Rand water technicians,and the system is integrated with machine learning that allows the app to self-detect and report a water leak when it hears water pipe burst sound. The app uses Mapbox API to access the location of a user, allows a user to upload a water leak image,allows a user to describe the query</p>
+<ul><i>NodeJs</i> <i>ExpressJs</i> <i>Sqlite</i></ul>
+<a href="https://smart-water-solutions.herokuapp.com">
+<i class="fa fa-key" aria-hidden="true"></i>
+</a>
+</div>
+
+<div class="pr2">
+<h2>Pizza Shopping Cart</h2>
+<p>A simple pizza cart that show selected pizza,price and you can also add pizza to cart</p>
+<ul><i>NodeJs</i> <i>ExpressJs</i> <i>Sqlite</i></ul>
+<a href="https://smart-water-solutions.herokuapp.com">
+<i class="fa fa-key" aria-hidden="true"></i>
+</a>
+</div>
+</div>
+   <div class="footer">
+  <p>Developed by : <a href="mailto:cktshukudu@gmail.com">Christian Tshukudu</a> || &#169; 2021 All Rights Reserved</p>
+</div>
+
 </body>
 </html>

@@ -36,11 +36,6 @@ app.use(express.static('public'));
     res.redirect('/home');
   });
 
-  app.get('/cv', (req, res) => {
-    res.render('cv');
-  });
-
- 
   app.post('/cv', (req, res) => {
     var fileId = '1ZdR3L3qP4Bkq8noWLJHSr_iBau0DNT4Kli4SxNc2YEo';
 var dest = fs.createWriteStream('/tmp/resume.pdf');
