@@ -210,17 +210,10 @@ float: right;
     overflow: hidden;
     border-top: 2px solid #000000;
 
-@media (min-width:960px) {
+@media (min-width:400px) {
     .pro{
-        display: flex;
+        width: 85%;
+        padding: 0; }
     }
-    .pro1{
-        display: flex;
-    }
-    .pro2{
-        display: flex;
-    }
-}
-
 }
     
