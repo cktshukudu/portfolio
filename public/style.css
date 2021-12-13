@@ -137,6 +137,12 @@ float: right;
     border: solid #ffffff;
 
 }
+
+.fa{
+    padding: 3rem;
+    margin: 3rem;
+}
+
 .fa {
     padding: 8px;
     width: 200px;
