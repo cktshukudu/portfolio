@@ -132,8 +132,9 @@ float: right;
 }
 .foot{
     padding: 8rem;
+    padding-bottom: 15rem;
     margin-bottom: 12rem;
-    border: solid #457b9d;
+    border: solid #ffffff;
 
 }
 .fa {
