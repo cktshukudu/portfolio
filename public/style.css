@@ -90,16 +90,12 @@ float: right;
     display: block;
     margin: 2px 0 0 0;
 }
-
 .his{
-  
     border: 1px dotted;
     border-color:#fefae0;
     padding: 1em;
     margin: 1em;
 }
-
-  
   .navbar a {
     float: left;
     display: block;
@@ -109,7 +105,6 @@ float: right;
     text-decoration: none;
     font-size: 17px;
   }
-  
   .navbar a:hover {
     background: #ddd;
     color: black;
@@ -134,17 +129,11 @@ float: right;
     padding: 8rem;
     padding-bottom: 15rem;
     margin-bottom: 12rem;
-    border: solid #ffffff;
+    border:  2px 4px #457b9d;
 
 }
-
-.fa{
-    padding: 3rem;
-    margin: 3rem;
-}
-
 .fa {
-    padding: 8px;
+    padding: 4rem;
     width: 200px;
   }
 
@@ -155,9 +144,9 @@ float: right;
     text-align: center;
   }
 .footer {
-    padding: 2em;
-    overflow: hidden;
-    border-top: 2px solid #000000;
+    margin: 4rem;
+    padding: 2rem;
+    border-top: 2px solid #457b9d;
 }
     @media (min-width: 960px) {
         .container {
