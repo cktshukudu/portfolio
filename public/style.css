@@ -18,8 +18,7 @@ body{
 }
 .pro1{
     padding: 6em;
-    margin: 3em;
-
+    margin: 6em;
 }
 .pr1{
     background-color: #ffff;
@@ -33,7 +32,8 @@ body{
       margin: 20px;
   }
   .responsive {
-    width: 50%;
+    width: 25%;
+    max-width: 400px;
     height: auto;
   }
   .pr2{
@@ -48,10 +48,6 @@ body{
       margin-left: 15px;
       padding:15px;
       margin: 2px 0;
-  }
-  .responsiv {
-    width: 50%;
-    height: auto;
   }
 .topnav {
     overflow: hidden;
@@ -70,33 +66,7 @@ body{
       font-size: 17px;
       
     }
-.header img{
-    margin-right: 15px;
-    float: right;
-}
-.header h1{
-    margin-left: 15px;
-    display: block;
-    margin: 2px 0 0 0;
-}
-.city {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 2em;
-    overflow: hidden;
-    border-bottom: 2px solid #009879;
-    
-}
 
-.city img {
-    margin-right: 15px;
-    float: left;
-}
-
-.foreign{
-    background-color: white;
-    padding: 2em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} 
 .foreign h2 {text-align: center;}
 .footer {
     background-color: #ffffff;
@@ -120,35 +90,7 @@ float: right;
     display: block;
     margin: 2px 0 0 0;
 }
-.paul{
-    
-    box-shadow: #009879;
-    flex: 1;
-}
-.paul img{
-    margin-left: 15px;
-    float: right;
-    }
-    .paul h3,
-    .paul p{
-        margin-left: 15px;
-        display: block;
-        margin: 2px 0 0 0;
-    }
-.vortr{
-  
-    flex: 1;
-}
-.vortr img{
-    margin-left: 15px;
-    float: right;
-    }
-    .vortr h3,
-    .vortr p{
-        margin-left: 15px;
-        display: block;
-        margin: 2px 0 0 0;
-    }
+
 .his{
   
     border: 1px dotted;
@@ -189,8 +131,8 @@ float: right;
     margin-bottom: 10rem;
 }
 .foot{
-    padding: 20rem;
-    margin-bottom: 20rem;
+    padding: 18rem;
+    margin-bottom: 18rem;
     border: solid #457b9d;
 
 }
@@ -209,11 +151,10 @@ float: right;
     padding: 2em;
     overflow: hidden;
     border-top: 2px solid #000000;
-
-@media (min-width:400px) {
-    .pro{
-        width: 85%;
-        padding: 0; }
-    }
 }
-    
+    @media (min-width: 960px) {
+        .container {
+          width: 85%;
+          padding: 0; 
+        }
+      }
